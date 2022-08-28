@@ -1,74 +1,78 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 3.5rem;
+    font-weight: bolder;
+    background-color: rgb(240, 248, 255);
     margin: 0;
-    background-color: rgb(235, 247, 252);
     width: 100vw;
-    height: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .container {
-    background-color: rgb(249, 249, 110);
-    width: 400px;
     display: flex;
+    border: 2px solid rgb(164, 224, 248);
+
+    flex-direction: column;   
     justify-content: center;
+    align-items: center;
+    width: 300px;
+    gap: 10px;
+   height: 280px;
+}
+
+.input {
+    display: flex;
+    justify-content: flex-end;    
+    border: 1px solid;
+    padding: 15px;
+    width: 240px;
+    height: 20px;
+}
+  
+.operators {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+    
+    
+.operators>div {
+    width: 50px;
+    border: 1px solid ;
+    padding: 5px;
+}
+    
+.calculation {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.numbers {
+    display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.input {
-    background-color: aquamarine;
-    text-align: right;
-    border: 2px solid red;
-}
-
-.operators {
-    background-color: lightcoral;
-    display: flex;
-    justify-content: space-around;
-
-}
-
-
-.operators>div {
-    border: 2px solid red;
-    flex: content;
-    text-align: center;
-}
-
-.calculation {
-    display: flex;
-    gap: 10px;
-}
-
-.numbers {
-    background-color: lightgrey;
-    display: grid;
-    text-align: center;
-    /* border: 2px solid lime; */
-    flex: auto;
-}
-
-
 .numbers>div {
-    border: 2px solid red;
-
+    width: 50px;
+    border: 1px solid;
+    padding: 5px;
 }
-
-.equal {
-    background-color: blue;
+   
+.equals {
     display: flex;
-    flex: 8%;
-    align-items: center;
-
-    align-content: center;
+    background-color: rgb(79, 122, 210);
+    color: white;
+    width: 60px;
     justify-content: center;
-    border: 2px solid red;
+    align-items: center;
 }
+
+
+
+

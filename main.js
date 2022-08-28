@@ -14,6 +14,6 @@ const minus = document.querySelector('.minus');
 const multiplay = document.querySelector('.multiplay');
 const divide = document.querySelector('.divide');
 
-const equal = document.querySelector('.equal');
+const equals = document.querySelector('.equal');
 
-let currentInput = ' ';
+let currentInput = '';
