@@ -1,3 +1,6 @@
+//Sajnos nem tudom megoldani. Nem kaphatnék egy hét haladékot?
+//Remélem nem pofátlanság, ha nem, akkor sem haragszom.
+
 const one = document.querySelector('.one');
 const two = document.querySelector('two');
 const three = document.querySelector('tree');
